@@ -1,0 +1,124 @@
+﻿  Tests.cpp
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(199,50): warning C4133:  '-': incompatible types - from 'void *' to 'uint8_t *'
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(886,22): warning C4244:  '-=': conversion from 'uintptr_t' to 'int8_t', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(891,22): warning C4244:  '-=': conversion from 'uintptr_t' to 'int16_t', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(896,22): warning C4244:  '-=': conversion from 'uintptr_t' to 'int32_t', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(1553,7): warning C4334:  '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(1584,33): warning C4334:  '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:  'return': conversion from 'uintptr_t' to 'T', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:             T=int8_t
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(934): message :  see reference to function template instantiation 'T PLH::AbstractDetour::CalculateRelativeDisplacement<int8_t>(uintptr_t,uintptr_t,uint_fast32_t)' being compiled
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(934): message :         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(934): message :         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(934): message :             T=int8_t
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(934): message :         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:  'return': conversion from 'uintptr_t' to 'T', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:             T=int8_t
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:  'return': conversion from 'uintptr_t' to 'T', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:             T=int16_t
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(942): message :  see reference to function template instantiation 'T PLH::AbstractDetour::CalculateRelativeDisplacement<int16_t>(uintptr_t,uintptr_t,uint_fast32_t)' being compiled
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(942): message :         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(942): message :         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(942): message :             T=int16_t
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(942): message :         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:  'return': conversion from 'uintptr_t' to 'T', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:             T=int16_t
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:  'return': conversion from 'uintptr_t' to 'T', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:             T=int32_t
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(950): message :  see reference to function template instantiation 'T PLH::AbstractDetour::CalculateRelativeDisplacement<int32_t>(uintptr_t,uintptr_t,uint_fast32_t)' being compiled
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(950): message :         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(950): message :         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(950): message :             T=int32_t
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(950): message :         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:  'return': conversion from 'uintptr_t' to 'T', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:             T=int32_t
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:  'return': conversion from 'uintptr_t' to 'T', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:             T=long
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(349,28): warning C4244:         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(1151): message :  see reference to function template instantiation 'T PLH::AbstractDetour::CalculateRelativeDisplacement<long>(uintptr_t,uintptr_t,uint_fast32_t)' being compiled
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(1151): message :         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(1151): message :         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(1151): message :             T=long
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(1151): message :         ]
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:  'return': conversion from 'uintptr_t' to 'T', possible loss of data
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         with
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         [
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:             T=long
+D:\Projects\Libs\PolyHook\PolyHook\PolyHook.hpp(350,14): warning C4244:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\algorithm(2151,64): warning C4244:  'argument': conversion from '_Diff' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\algorithm(2171): message :  see reference to function template instantiation 'void std::_Random_shuffle1<_RanIt,Catch::RandomNumberGenerator>(_RanIt,_RanIt,_RngFn &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\algorithm(2171): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\algorithm(2171): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\algorithm(2171): message :             _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Catch::TestCase>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\algorithm(2171): message :             _RngFn=Catch::RandomNumberGenerator
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\algorithm(2171): message :         ]
+D:\Projects\Libs\PolyHook\PolyHook\CatchUnitTest.h(6480): message :  see reference to function template instantiation 'void std::random_shuffle<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,Catch::RandomNumberGenerator&>(_RanIt,_RanIt,_RngFn)' being compiled
+D:\Projects\Libs\PolyHook\PolyHook\CatchUnitTest.h(6480): message :         with
+D:\Projects\Libs\PolyHook\PolyHook\CatchUnitTest.h(6480): message :         [
+D:\Projects\Libs\PolyHook\PolyHook\CatchUnitTest.h(6480): message :             _Ty=Catch::TestCase,
+D:\Projects\Libs\PolyHook\PolyHook\CatchUnitTest.h(6480): message :             _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Catch::TestCase>>>,
+D:\Projects\Libs\PolyHook\PolyHook\CatchUnitTest.h(6480): message :             _RngFn=Catch::RandomNumberGenerator &
+D:\Projects\Libs\PolyHook\PolyHook\CatchUnitTest.h(6480): message :         ]
+capstone.lib(AArch64BaseInfo.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(AArch64BaseInfo.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(AArch64Disassembler.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(AArch64Disassembler.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(AArch64InstPrinter.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(AArch64InstPrinter.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(AArch64Mapping.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(AArch64Mapping.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(AArch64Module.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(AArch64Module.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(ARMDisassembler.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(ARMDisassembler.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(ARMInstPrinter.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(ARMInstPrinter.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(ARMMapping.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(ARMMapping.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(ARMModule.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(ARMModule.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(MipsDisassembler.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(MipsDisassembler.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(MipsInstPrinter.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(MipsInstPrinter.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(MipsMapping.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(MipsMapping.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(MipsModule.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(MipsModule.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(PPCDisassembler.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(PPCDisassembler.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(PPCInstPrinter.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(PPCInstPrinter.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(PPCMapping.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(PPCMapping.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(PPCModule.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(PPCModule.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(SparcDisassembler.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(SparcDisassembler.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(SparcInstPrinter.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(SparcInstPrinter.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(SparcMapping.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(SparcMapping.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(SparcModule.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(SparcModule.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(SystemZDisassembler.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(SystemZDisassembler.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(SystemZInstPrinter.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(SystemZInstPrinter.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(SystemZMapping.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(SystemZMapping.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(SystemZMCTargetDesc.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(SystemZMCTargetDesc.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(SystemZModule.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(SystemZModule.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(X86ATTInstPrinter.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(X86ATTInstPrinter.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(X86Disassembler.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(X86Disassembler.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(X86DisassemblerDecoder.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(X86DisassemblerDecoder.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(X86IntelInstPrinter.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(X86IntelInstPrinter.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(X86Mapping.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(X86Mapping.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(X86Module.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(X86Module.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(XCoreInstPrinter.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(XCoreInstPrinter.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(XCoreDisassembler.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(XCoreDisassembler.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(XCoreMapping.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(XCoreMapping.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(XCoreModule.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(XCoreModule.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(cs.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(cs.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(MCInst.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(MCInst.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(MCInstrDesc.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(MCInstrDesc.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(MCRegisterInfo.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(MCRegisterInfo.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(SStream.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(SStream.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+capstone.lib(utils.obj) : warning LNK4099: PDB 'capstone_static.pdb' was not found with 'capstone.lib(utils.obj)' or at 'D:\Projects\Libs\PolyHook\x64\Debug\capstone_static.pdb'; linking object as if no debug info
+  PolyHook.vcxproj -> D:\Projects\Libs\PolyHook\x64\Debug\PolyHook.exe

@@ -1,0 +1,16 @@
+﻿  dllmain.cpp
+D:\Projects\VisualStudioProject\D3DHook\PolyHook\PolyHook.hpp(165,86): warning C4244:  'argument': conversion from 'int_fast64_t' to 'uintptr_t', possible loss of data
+D:\Projects\VisualStudioProject\D3DHook\PolyHook\PolyHook.hpp(199,50): warning C4133:  '-': incompatible types - from 'void *' to 'uint8_t *'
+D:\Projects\VisualStudioProject\D3DHook\PolyHook\PolyHook.hpp(866,20): warning C4018:  '<': signed/unsigned mismatch
+D:\Projects\VisualStudioProject\D3DHook\PolyHook\PolyHook.hpp(932,33): warning C4244:  'initializing': conversion from 'uint64_t' to 'uintptr_t', possible loss of data
+D:\Projects\VisualStudioProject\D3DHook\PolyHook\PolyHook.hpp(934,54): warning C4244:  'argument': conversion from 'uint64_t' to 'uintptr_t', possible loss of data
+D:\Projects\VisualStudioProject\D3DHook\PolyHook\PolyHook.hpp(940,33): warning C4244:  'initializing': conversion from 'uint64_t' to 'uintptr_t', possible loss of data
+D:\Projects\VisualStudioProject\D3DHook\PolyHook\PolyHook.hpp(942,55): warning C4244:  'argument': conversion from 'uint64_t' to 'uintptr_t', possible loss of data
+D:\Projects\VisualStudioProject\D3DHook\PolyHook\PolyHook.hpp(948,33): warning C4244:  'initializing': conversion from 'uint64_t' to 'uintptr_t', possible loss of data
+D:\Projects\VisualStudioProject\D3DHook\PolyHook\PolyHook.hpp(950,55): warning C4244:  'argument': conversion from 'uint64_t' to 'uintptr_t', possible loss of data
+dllmain.obj : error LNK2019: unresolved external symbol _cs_open referenced in function "protected: void __thiscall PLH::AbstractDetour::Initialize(enum cs_mode)" (?Initialize@AbstractDetour@PLH@@IAEXW4cs_mode@@@Z)
+dllmain.obj : error LNK2019: unresolved external symbol _cs_close referenced in function "public: virtual __thiscall PLH::AbstractDetour::~AbstractDetour(void)" (??1AbstractDetour@PLH@@UAE@XZ)
+dllmain.obj : error LNK2019: unresolved external symbol _cs_option referenced in function "protected: void __thiscall PLH::AbstractDetour::Initialize(enum cs_mode)" (?Initialize@AbstractDetour@PLH@@IAEXW4cs_mode@@@Z)
+dllmain.obj : error LNK2019: unresolved external symbol _cs_disasm referenced in function "protected: unsigned int __thiscall PLH::AbstractDetour::CalculateLength(unsigned char *,unsigned int)" (?CalculateLength@AbstractDetour@PLH@@IAEIPAEI@Z)
+dllmain.obj : error LNK2019: unresolved external symbol _cs_free referenced in function "protected: unsigned int __thiscall PLH::AbstractDetour::CalculateLength(unsigned char *,unsigned int)" (?CalculateLength@AbstractDetour@PLH@@IAEIPAEI@Z)
+D:\Projects\VisualStudioProject\D3DHook\Debug\D3DHook.dll : fatal error LNK1120: 5 unresolved externals
