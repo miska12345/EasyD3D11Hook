@@ -19,3 +19,15 @@ PolyHook is a hooking library developed by Stephen Eckels. The original repo can
 ## Demo
 ![Image description](https://github.com/miska12345/EasyD3D11Hook/blob/master/capture.PNG)
 
+## Usage
+Upon successful compilation, you will get 2 DLL files. The D3DHook.dll contain the core of this hook. The FW1FontWrapper.dll is a support library that is used during runtime for text rendering. To use the hook, you should inject FW1FontWrapper.dll to a target process, then inject D3DHook.dll (order does matter).
+
+### Default Hotkeys
+Show/Hide Menu: Insert
+Navigate up an item: Up arrow
+Navigate down an item: Down arrow
+Enable a feature: Right arrow
+Disable a feature: Left arrow
+
+## Note
+The dispayed features are not included with the hook.
