@@ -6,7 +6,7 @@ Welcome\! This repository contains the source code for:
 
 ## Universal D3D11 Hook
 
-D3D11 Hook provides the ability for user to detour D3DX functions in an effective manner.
+D3D11 Hook provides the ability for user to detour D3DX functions in an effective manner. This code hooks the Present function and draws functional menu in a target application.
 
 ## D3D11Renderer
 
